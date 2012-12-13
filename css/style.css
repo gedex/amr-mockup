@@ -1,0 +1,299 @@
+body {
+	background-color: #E5E5E5;
+}
+
+/* Override bootstrap style */
+.form-horizontal .control-group {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+.form-horizontal .control-label {
+	font-weight: bold;
+}
+
+.form-horizontal .help-block {
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #999;
+}
+
+/* Made datepicker visible in modal */
+.datepicker {
+	z-index: 1051;
+}
+
+.modal-header {
+	background-color: #D9EDF7;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom: 1px solid #BCE8F1;
+}
+
+.modal-body a {
+	text-decoration: underline;
+}
+
+.attachment {
+	border: 1px dashed #ddd;
+	padding: 10px;
+	min-height: 100px;
+	color: #999;
+}
+
+/* Page */
+#page-header {
+	position: relative;
+	background-color: #333;
+	padding-top: 10px;
+}
+
+.user-toolbar {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	width: 250px;
+	color: #999;
+	font-size: 13px;
+	line-height: 13px;
+}
+
+.user-toolbar ul {
+	float: left;
+}
+
+.user-toolbar ul > li {
+	float: left;
+	margin-right: 15px;
+}
+
+.user-toolbar ul > li > a {
+	color: #D0AD53;
+}
+
+.user-toolbar ul > li:last-child {
+	margin-right: 0;
+}
+
+/* App nav */
+.app-nav {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.app-nav > li > a {
+	border: none;
+	color: #fff;
+	font-family: "Lucida Grande",verdana,arial,helvetica,sans-serif;
+}
+
+.app-nav > .active > a {
+	background-color:	#e5e5e5;
+}
+
+.app-nav > .active > a:hover {
+	background-color:	#e5e5e5;
+}
+
+.app-nav > li > a:hover {
+	background-color: transparent;
+	color: #999;
+}
+
+/* App breadcrumb */
+.breadcrumb {
+	margin-bottom: 0;
+	padding-left: 10px;
+	background-color: transparent;
+}
+
+/* App module */
+.module-main {
+	background-color: #fff;
+	border: 1px solid #ccc;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.module-header {
+	padding: 10px 10px 5px;
+	background-color: #D9EDF7;
+	border-bottom: 1px solid #BCE8F1;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.module-header h2 {
+	width: 50%;
+	float: left;
+	margin-top: 0;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.module-header .module-toolbar {
+	width: 35%;
+	float: right;
+	text-align: right;
+}
+
+.module-content {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+/* Latest trademark orders */
+.latest-trademark-orders .trademark-order {
+	margin: 10px 10px 20px;
+}
+
+.trademark-order .order-activities {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.trademark-order .order-header {
+	margin: 0;
+	padding: 5px;
+	color: #333;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+	font-size: 16px;
+	line-height: 16px;
+	background-color: #e5e5e5;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.order-header .order-title {
+	float: left;
+	display: block;
+	padding-top: 5px;
+	color: #333;
+}
+
+.order-header .client-name {
+	font-weight: bold;
+}
+
+
+.order-header .order-action {
+	float: right;
+}
+
+.trademark-order li {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.trademark-order .order-basic-info {
+	width: 60%;
+	float: left;
+	padding: 5px 0;
+}
+
+.trademark-order .order-basic-info a {
+	text-decoration: underline;
+	color: #08c;
+}
+
+.trademark-order .order-basic-info .task-finish {
+	text-decoration: line-through;
+}
+
+.trademark-order .order-meta {
+	width: 25%;
+	float: right;
+	padding-left: 5px 0;
+	text-align: right;
+	font-size: 12px;
+}
+
+.trademark-order .order-author {
+	padding-right: 5px;
+	font-size: 12px;
+	color: #999;
+}
+
+.trademark-order .order-author strong {
+	color: #333;
+}
+
+.trademark-order .status-info {
+	padding: 5px;
+}
+
+.trademark-order .order-date {
+	display: inline-block;
+	padding: 5px;
+	width: 56px;
+}
+
+/* sidebar */
+.sidebar {
+	margin-top: 36px;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-box {
+	margin-bottom: 10px;
+}
+
+.sidebar-box h3 {
+	padding: 5px;
+	background-color: #e5e5e5;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+/* Trademark orders sidebar */
+.trademark-orders-sidebar .quick-summary li span {
+	display: inline-block;
+	float: left;
+	width: 52px;
+	padding-right: 5px;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.bookmarked-orders li {
+	padding: 5px;
+	border-bottom: 1px solid #ddd;
+}
+
+.bookmarked-orders li:nth-child(odd) {
+	background-color: #F9F9F9;
+}
+
+/* Sample report */
+.report-header, .report-body {
+	margin: 10px;
+}
+
+.report-header-item span {
+	display: block;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #e5e5e5;
+	color: #999;
+}
