@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Le styles -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+<header id="page-header">
+	<ul class="app-nav nav nav-tabs">
+		<li>
+			<a href="#"><i class="icon-white icon-home"></i> Dashboard</a>
+		</li>
+		<li>
+			<a href="#">Patent</a>
+		</li>
+		<li class="active">
+			<a href="#">Trademark</a>
+		</li>
+		<li>
+			<a href="#">Litigation</a>
+		</li>
+		<li>
+			<a href="#">Design</a>
+		</li>
+		<li>
+			<a href="#">Master Data</a>
+		</li>
+	</ul>
+	<!-- / app-nav -->
+
+	<div class="user-toolbar">
+		<ul class="unstyled">
+			<li><i class="icon-white icon-user"></i> Gito</li>
+			<li>
+				<a href="#">My Settings</a>
+			</li>
+			<li>
+				<a href="#">Logout</a>
+			</li>
+		</ul>
+	</div>
+	<!-- / user-toolbar -->
+</header>
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span9">
+			<ul class="breadcrumb">
+				<li><a href="#">Home</a> <span class="divider">/</span></li>
+				<li><a href="#">Trademark</a> <span class="divider">/</span></li>
+				<li class="active">Orders</li>
+			</ul>
+			<div class="latest-trademark-orders module-main">
+				<header class="module-header clearfix">
+					<h2>Latest orders for trademark requests</h2>
+					<div class="btn-group trademark-order-toolbar module-toolbar">
+						<button class="btn btn-primary"><i class="icon-white icon-plus"></i> New Order</button>
+					</div>
+				</header>
+
+				<section class="trademark-order">
+					<header class="order-header clearfix">
+						<a href="#" class="order-title">
+							<span class="client-name">Digital Holdings BV</span>
+							&mdash;
+							<span class="trademark-name">Trademark's name</span>
+						</a>
+						<div class="btn-group order-action">
+							<button class="btn btn-small"><i class="icon icon-bookmark"></i> Bookmark</button>
+							<button class="btn btn-small"><i class="icon icon-trash"></i> Delete</button>
+						</div>
+					</header>
+					<!-- / order-header -->
+
+					<ol class="unstyled order-activities">
+						<li class="clearfix">
+							<div class="order-basic-info">
+								<span class="label label-important status-files">Files</span>
+								<img src="img/icon-pdf.png">
+								<span class="status-info">
+									<a href="#">form-permohonan.pdf</a>
+								</span>
+							</div>
+							<!-- / order-basic-info -->
+
+							<div class="order-meta">
+								<span class="order-author">Uploaded by <strong>Kadiv</strong></span>
+								<span class="order-date">Dec 5</span>
+							</div>
+							<!-- / order-meta -->
+						</li>
+
+						<li class="clearfix">
+							<div class="order-basic-info">
+								<span class="label label-success status-approved">Approved</span>
+								<span class="status-info">
+									<span class="task-finish">Please approve the order</span>,
+									<span class="order-author">task created by <strong>Gito</strong></span>
+								</span>
+							</div>
+							<!-- / order-basic-info -->
+
+							<div class="order-meta">
+								<span class="order-author">Completed by <strong>Kadiv</strong></span>
+								<span class="order-date">Dec 5</span>
+							</div>
+							<!-- / order-meta -->
+						</li>
+
+						<li class="clearfix">
+							<div class="order-basic-info">
+								<span class="label label-info status-need-approval">Approval</span>
+								<span class="status-info">
+									<a href="#">Please approve the order</a>,
+									<span class="order-author">task created by <strong>Gito</strong></span>
+								</span>
+							</div>
+							<!-- / order-basic-info -->
+
+							<div class="order-meta">
+								<span class="order-author">Assigned to <strong>Kadiv</strong></span>
+								<span class="order-date">Dec 5</span>
+							</div>
+							<!-- / order-meta -->
+						</li>
+
+						<li class="clearfix">
+							<div class="order-basic-info">
+								<span class="label label-important status-files">Files</span>
+								<img src="img/icon-pdf.png">
+								<span class="status-info">
+									<a href="#">Digital_Holdings_BV-checklist.pdf</a>
+								</span>
+							</div>
+							<!-- / order-basic-info -->
+
+							<div class="order-meta">
+								<span class="order-author">Uploaded by <strong>Yuni Shara</strong></span>
+								<span class="order-date">Dec 5</span>
+							</div>
+							<!-- / order-meta -->
+						</li>
+
+						<li class="clearfix">
+							<div class="order-basic-info">
+								<span class="label label-success status-verified">Verified</span>
+								<span class="status-info">
+									<span class="task-finish">Please verify document</span>,
+									<span class="order-author">task created by <strong>Gito</strong></span>
+								</span>
+							</div>
+							<!-- / order-basic-info -->
+
+							<div class="order-meta">
+								<span class="order-author">Completed by <strong>Yuni Shara</strong></span>
+								<span class="order-date">Dec 5</span>
+							</div>
+							<!-- / order-meta -->
+						</li>
+
+						<li class="clearfix">
+							<div class="order-basic-info">
+								<span class="label label-info status-need-verification">Verify</span>
+								<span class="status-info">
+									<a href="#">Please verify document</a>,
+									<span class="order-author">task created by <strong>Gito</strong></span>
+								</span>
+							</div>
+							<!-- / order-basic-info -->
+
+							<div class="order-meta">
+								<span class="order-author">Assigned to <strong>Yuni Shara</strong></span>
+								<span class="order-date">Dec 5</span>
+							</div>
+							<!-- / order-meta -->
+						</li>
+						<li class="clearfix">
+							<div class="order-basic-info">
+								<span class="label label-important status-files">Files</span>
+								<img src="img/icon-pdf.png">
+								<span class="status-info">
+									<a href="#">Digital_Holdings_BV-order_letter.pdf</a>
+								</span>
+							</div>
+							<!-- / order-basic-info -->
+
+							<div class="order-meta">
+								<span class="order-author">Uploaded by <strong>Gito</strong></span>
+								<span class="order-date">Dec 5</span>
+							</div>
+							<!-- / order-meta -->
+						</li>
+						<li class="clearfix">
+							<div class="order-basic-info">
+								<span class="label label-info status-on-order">New order</span>
+								<span class="status-info">
+									<a href="#">New order received</a>
+								</span>
+							</div>
+							<!-- / order-basic-info -->
+
+							<div class="order-meta">
+								<span class="order-author">Posted by <strong>Gito</strong></span>
+								<span class="order-date">Dec 5</span>
+							</div>
+							<!-- / order-meta -->
+						</li>
+					</ol>
+					<!-- / order-activities -->
+
+				</section>
+				<!-- / trademark-order -->
+
+				<section class="trademark-order">
+					<header class="order-header clearfix">
+						<a href="#" class="order-title">
+							<span class="client-name">ALLENS ARTHUR ROBINSON</span>
+							&mdash;
+							<span class="trademark-name">JAC5</span>
+						</a>
+						<div class="btn-group order-action">
+							<button class="btn btn-small"><i class="icon icon-bookmark"></i> Bookmark</button>
+							<button class="btn btn-small"><i class="icon icon-trash"></i> Delete</button>
+						</div>
+					</header>
+					<!-- / order-header -->
+
+					<ol class="unstyled order-activities">
+						<li class="clearfix">
+							<div class="order-basic-info">
+								<span class="label label-info status-on-order">New order</span>
+								<span class="status-info">
+									<a href="#">New order received</a>
+								</span>
+							</div>
+							<!-- / order-basic-info -->
+
+							<div class="order-meta">
+								<span class="order-author">Posted by <strong>Aceng</strong></span>
+								<span class="order-date">Dec 5</span>
+							</div>
+							<!-- / order-meta -->
+						</li>
+					</ol>
+					<!-- / order-activities -->
+
+				</section>
+				<!-- / trademark-order -->
+
+				<section class="trademark-order">
+					<header class="order-header clearfix">
+						<a href="#" class="order-title">
+							<span class="client-name">Client's name</span>
+							&mdash;
+							<span class="trademark-name">Trademark's name</span>
+						</a>
+						<div class="btn-group order-action">
+							<button class="btn btn-small"><i class="icon icon-bookmark"></i> Bookmark</button>
+							<button class="btn btn-small"><i class="icon icon-trash"></i> Delete</button>
+						</div>
+					</header>
+					<!-- / order-header -->
+
+					<ol class="unstyled order-activities">
+						<li class="clearfix">
+							<div class="order-basic-info">
+								<span class="label label-info status-on-order">New order</span>
+								<span class="status-info">
+									<a href="#">New order received</a>
+								</span>
+							</div>
+							<!-- / order-basic-info -->
+
+							<div class="order-meta">
+								<span class="order-author">Posted by <strong>Aceng</strong></span>
+								<span class="order-date">Dec 5</span>
+							</div>
+							<!-- / order-meta -->
+						</li>
+					</ol>
+					<!-- / order-activities -->
+
+				</section>
+				<!-- / trademark-order -->
+			</div>
+			<!-- latest-trademark-orders -->
+
+			<div class="pagination">
+				<ul>
+					<li class="disabled"><a href="#">Prev</a></li>
+					<li class="active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">Next</a></li>
+				</ul>
+			</div>
+			<!-- / pagination -->
+		</div>
+		<!-- /span9 -->
+
+		<div class="span3">
+			<div class="trademark-orders-sidebar sidebar">
+				<form>
+					<div class="input-append">
+						<input class="input-medium" type="text" placeholder="Enter order keyword">
+						<button class="btn" type="button"><i class="icon icon-search"></i> Search</button>
+					</div>
+				</form>
+				<div class="quick-summary sidebar-box">
+					<h3><i class="icon icon-tasks"></i> Quick Summary</h3>
+					<ul class="unstyled">
+						<li>
+							<span>Closed</span>
+							<div class="progress progress-success">
+								<div class="bar" style="width: 40%"></div>
+							</div>
+						</li>
+						<li>
+							<span>Invoiced</span>
+							<div class="progress progress-warning">
+								<div class="bar" style="width: 25%"></div>
+							</div>
+						</li>
+						<li>
+							<span>Due Invoice</span>
+							<div class="progress progress-danger">
+								<div class="bar" style="width: 10%"></div>
+							</div>
+						</li>
+						<li>
+							<span>New Order</span>
+							<div class="progress progress-info">
+								<div class="bar" style="width: 60%"></div>
+							</div>
+						</li>
+					</ul>
+					<button class="btn btn-small"><i class="icon icon-briefcase"></i> Detailed report</button>
+				</div>
+				<!-- / quick-summary -->
+
+				<div class="bookmarked-orders sidebar-box">
+					<h3><i class="icon icon-bookmark"></i> My Bookmarked Orders</h3>
+
+					<ol class="unstyled">
+						<li>
+							<a href="#">Client's name &mdash; Trademark's name</a>
+						</li>
+						<li>
+							<a href="#">My bookmarked order's name</a>
+						</li>
+						<li>
+							<a href="#">A quick way to navigate my order of interest</a>
+						</li>
+						<li>
+							<a href="#">Another bookmarked tradermark</a>
+						</li>
+					</ol>
+				</div>
+				<!-- / bookmarked-orders -->
+			</div>
+			<!-- / trademark-orders-sidebar -->
+		</div>
+		<!-- / span3 -->
+	</div>
+	<!-- / row-fluid -->
+</div>
+<!-- / container-fluid -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

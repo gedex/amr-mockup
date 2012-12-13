@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Le styles -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+<header id="page-header">
+	<ul class="app-nav nav nav-tabs">
+		<li>
+			<a href="#"><i class="icon-white icon-home"></i> Dashboard</a>
+		</li>
+		<li>
+			<a href="#">Patent</a>
+		</li>
+		<li class="active">
+			<a href="#">Trademark</a>
+		</li>
+		<li>
+			<a href="#">Litigation</a>
+		</li>
+		<li>
+			<a href="#">Design</a>
+		</li>
+		<li>
+			<a href="#">Master Data</a>
+		</li>
+	</ul>
+	<!-- / app-nav -->
+
+	<div class="user-toolbar">
+		<ul class="unstyled">
+			<li><i class="icon-white icon-user"></i> Gito</li>
+			<li>
+				<a href="#">My Settings</a>
+			</li>
+			<li>
+				<a href="#">Logout</a>
+			</li>
+		</ul>
+	</div>
+	<!-- / user-toolbar -->
+</header>
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span9">
+			<ul class="breadcrumb">
+				<li><a href="#">Home</a> <span class="divider">/</span></li>
+				<li><a href="#">Trademark</a> <span class="divider">/</span></li>
+				<li><a href="#">Reports</a> <span class="divider">/</span></li>
+				<li class="active">Monthly Invoice</li>
+			</ul>
+			<div class="latest-trademark-orders module-main">
+				<header class="module-header clearfix">
+					<h2>Monthly Invoice</h2>
+					<div class="module-toolbar">
+						<button class="btn"><i class="icon icon-backward"></i></button>
+
+						<div class="btn-group">
+							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+								October
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">January</a></li>
+								<li><a href="#">February</a></li>
+								<li><a href="#">March</a></li>
+								<li><a href="#">April</a></li>
+								<li><a href="#">May</a></li>
+								<li><a href="#">June</a></li>
+								<li><a href="#">Jully</a></li>
+								<li><a href="#">August</a></li>
+								<li><a href="#">September</a></li>
+								<li><a href="#">October</a></li>
+								<li><a href="#">November</a></li>
+								<li><a href="#">December</a></li>
+							</ul>
+						</div>
+
+						<div class="btn-group">
+							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+								2012
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">2012</a></li>
+								<li><a href="#">2011</a></li>
+							</ul>
+						</div>
+
+						<button class="btn"><i class="icon icon-forward"></i></button>
+					</div>
+				</header>
+
+				<section class="report-header row-fluid">
+					<div class="span2 report-header-item">
+						<p>
+							<span>Total Invoiced</span>
+							<strong>$25,000</strong>
+						</p>
+					</div>
+					<div class="span4 report-header-item">
+						<span>Paid/Unpaid Pie Chart</span>
+						<div id="chart_div" style="height: 200px"></div>
+					</div>
+					<div class="span2 report-header-item">
+						<p>
+							<span>Total Paid</span>
+							<strong>$15,000</strong>
+						</p>
+					</div>
+					<div class="span3 report-header-item">
+						<p>
+							<span>Total Unpaid</span>
+							<strong>$10,000</strong>
+						</p>
+					</div>
+				</section>
+
+				<section class="report-body">
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th>Client / Project</th>
+								<th>Start Date
+								<th>Progress Invoice</th>
+								<th>% Paid</th>
+								<th>Total Amount</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><strong>Client's name</strong> &mdash; trademark's name</td>
+								<td>12/10/2012</td>
+								<td>
+								<div class="progress progress-success">
+									<div class="bar" style="width: 100%"></div>
+								</div>
+								</td>
+								<td>100%</td>
+								<td>$1,000</td>
+							</tr>
+							<tr>
+								<td><strong>Client's name</strong> &mdash; trademark's name</td>
+								<td>12/10/2012</td>
+								<td>
+								<div class="progress progress-warning">
+									<div class="bar" style="width: 60%"></div>
+								</div>
+								</td>
+								<td>60%</td>
+								<td>$1,500</td>
+							</tr>
+							<tr>
+								<td><strong>Another Client's name</strong> &mdash; another trademark's name</td>
+								<td>12/10/2012</td>
+								<td>
+								<div class="progress progress-danger">
+									<div class="bar" style="width: 10%"></div>
+								</div>
+								</td>
+								<td>10%</td>
+								<td>$500</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+			</div>
+			<!-- latest-trademark-orders -->
+
+		</div>
+		<!-- /span9 -->
+
+		<div class="span3">
+			<div class="bookmarked-orders sidebar">
+
+				<div class="quick-summary sidebar-box">
+					<h3><i class="icon icon-tasks"></i> Another Reports</h3>
+					<ul class="unstyled">
+						<li>
+							<a href="#">Annual Report</a>
+						</li>
+						<li>
+							<a href="#">Report By Client</a>
+						</li>
+						<li>
+							<a href="#">Daily Report</a>
+						</li>
+						<li>
+							<a href="#">Aging Invoice</a>
+						</li>
+					</ul>
+					<button class="btn btn-small">More report</button>
+				</div>
+				<!-- / quick-summary -->
+
+			</div>
+			<!-- / trademark-orders-sidebar -->
+		</div>
+		<!-- / span3 -->
+	</div>
+	<!-- / row-fluid -->
+</div>
+<!-- / container-fluid -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+	// Load the Visualization API and the piechart package.
+	google.load('visualization', '1.0', {'packages':['corechart']});
+
+	// Set a callback to run when the Google Visualization API is loaded.
+	google.setOnLoadCallback(drawChart);
+
+
+	// Callback that creates and populates a data table,
+	// instantiates the pie chart, passes in the data and
+	// draws it.
+	function drawChart() {
+		// Create the data table.
+		var data = new google.visualization.DataTable();
+
+		data.addColumn('string', 'Invoices');
+		data.addColumn('number', 'Amount');
+
+		data.addRows([
+			['Paid', 15000],
+			['Unpaid', 10000],
+		]);
+
+		// Set chart options
+		var options = {
+			'width': '100%',
+			'height': '200px',
+		};
+		var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+		chart.draw(data, options);
+	}
+</script>
+</body>
+</html>
